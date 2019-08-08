@@ -51,7 +51,7 @@ el:
   footer:
     powered_by: "Υποστηριζόμενο από %{href}"
   go_back: Πήγαινε πίσω
-  greenlight: Greenlight
+  greenlight: YapTutor
   header:
     create_room: Δημιουργία δωματίου
     dropdown:
@@ -64,8 +64,8 @@ el:
   invalid_credentials: Η σύνδεση απέτυχε λόγω μη έγκυρων διαπιστευτηρίων. Είστε βέβαιοι ότι τα έχετε εισάγει σωστά;
   invite_message: "Για να προσκαλέσετε κάποιον στη συνεδρίαση, στείλτε τον σύνδεσμο:"
   landing:
-    about: "Το Greenlight είναι ένα απλό διαχειριστικό εργαλείο για το σύστημα τηλεδιάσκεψης ανοιχτού κώδικα %{href}. Μπορείτε να δημιουργήσετε τα δικά σας δωμάτια για να φιλοξενήσετε συνεδρίες ή να συμμετάσχετε σε άλλους χρησιμοποιώντας ένα σύντομο και βολικό σύνδεσμο."
-    welcome: Καλωσήρθες στο <span class="green-grad"> Greenlight </span>.
+    about: "YapTutor is an online live tutoring marketplace that gives on demand solutions to students all through Bangladesh. We help students from school to university succeed in any of their academic subjects through mentoring via virtual classroom sessions that are designed for the requirements of the individual student."
+    welcome: Καλωσήρθες στο <span class="green-grad"> Yaptutor </span>.
     video: Παρακολουθήστε το σεμινάριο μας σχετικά με τη χρήση του Greenlight
     upgrade: Δείξε μου πώς να αναβαθμίσω σε 2.0!
     version: "Έχουμε κυκλοφορήσει μια νέα έκδοση του Greenlight, αλλά η βάση δεδομένων σας δεν είναι συμβατή."

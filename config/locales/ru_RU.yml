@@ -66,7 +66,7 @@ ru_RU:
     email: Email
     submit: Отправить
   go_back: Вернуться
-  greenlight: Greenlight
+  greenlight: YapTutor
   header:
     create_room: Создать комнату
     dropdown:
@@ -80,8 +80,8 @@ ru_RU:
   invalid_login_method: Не удалось войти из-за несоответствия аккаунта. Вам необходимо выполнить вход с использованием omniauth.
   invite_message: "Для приглашения на встречу отправьте следующую ссылку:"
   landing:
-    about: "%{href} это простой внешний интерфейс для Вашего сервера вебконференций с открытым кодом BigBlueButton. Вы можете создавать собственные комнаты для встреч или присоединяться к комнатам созданным другими пользователями используя короткую и удобную ссылку."
-    welcome: Добро пожаловать в BigBlueButton
+    about: "YapTutor is an online live tutoring marketplace that gives on demand solutions to students all through Bangladesh. We help students from school to university succeed in any of their academic subjects through mentoring via virtual classroom sessions that are designed for the requirements of the individual student."
+    welcome: Добро пожаловать в Yaptutor
     video: Посмотрите наше руководство по использованию Greenlight
     upgrade: Показать мне как обновиться до версии 2.0!
     version: "Мы выпустили новую версию Greenlight, но Ваша база данных несовместима с ней."
