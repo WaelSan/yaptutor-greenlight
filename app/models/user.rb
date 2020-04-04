@@ -42,6 +42,7 @@ class User < ApplicationRecord
                     format: { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i }
 
   validates :password, length: { minimum: 6 }, confirmation: true, if: :greenlight_account?, on: :create
+  validates :phonenumber, length: { maximum: 24 }, allow_blank: true
 
   # Bypass validation if omniauth
   validates :accepted_terms, acceptance: true,

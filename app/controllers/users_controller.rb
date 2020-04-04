@@ -144,6 +144,9 @@ class UsersController < ApplicationController
         errors.each { |k, v| @user.errors.add(k, v) }
         render :edit, params: { settings: params[:settings] }
       end
+    # update user phone number
+    elsif params[:setting] == "phonenumber"
+         @user.phonenumber = user_params[:phonenumber]
     elsif user_params[:email] != @user.email && @user.update_attributes(user_params) && update_roles
       @user.update_attributes(email_verified: false)
 

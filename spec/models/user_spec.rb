@@ -37,6 +37,8 @@ describe User, type: :model do
     it { should allow_value(true).for(:accepted_terms) }
     it { should allow_value(false).for(:accepted_terms) }
 
+    it { should allow_value(00000000).for(:phonenumber) }
+
     it { should allow_value("valid.jpg").for(:image) }
     it { should allow_value("valid.png").for(:image) }
     it { should allow_value("random_file.txt").for(:image) }

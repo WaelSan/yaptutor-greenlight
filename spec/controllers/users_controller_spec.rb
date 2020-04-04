@@ -198,14 +198,14 @@ describe UsersController, type: :controller do
         before do
           allow_any_instance_of(Registrar).to receive(:invite_registration).and_return(true)
           allow(Rails.configuration).to receive(:allow_user_signup).and_return(true)
-          @user = create(:user, provider: "greenlight")
-          @admin = create(:user, provider: "greenlight", email: "test@example.com")
+          @user = create(:user, provider: "yaptutor")
+          @admin = create(:user, provider: "yaptutor", email: "test@example.com")
           @admin.add_role :admin
         end
 
         it "should notify admins that user signed up" do
           params = random_valid_user_params
-          invite = Invitation.create(email: params[:user][:email], provider: "greenlight")
+          invite = Invitation.create(email: params[:user][:email], provider: "yaptutor", phonenumber: params[:phonenumber])
           @request.session[:invite_token] = invite.invite_token
 
           expect { post :create, params: params }.to change { ActionMailer::Base.deliveries.count }.by(1)
@@ -222,7 +222,7 @@ describe UsersController, type: :controller do
           allow(Rails.configuration).to receive(:enable_email_verification).and_return(false)
 
           params = random_valid_user_params
-          invite = Invitation.create(email: params[:user][:name], provider: "greenlight")
+          invite = Invitation.create(email: params[:user][:name], provider: "yaptutor", phonenumber: params[:phonenumber])
           @request.session[:invite_token] = invite.invite_token
 
           post :create, params: params
