@@ -22,6 +22,7 @@ en:
       user:
         accepted_terms: "Terms and Conditions"
         email: Email
+        phonenumber: Phone Number
         name: Name
         password: Password
         password_confirmation: Password Confirmation
@@ -461,6 +462,7 @@ en:
     subtitle: Create an Account
     title: Sign up
     with: Sign up with %{provider}
+    phonenumber: Phone Number
   terms:
     accept: I accept the %{href}
     accept_existing: I accept the terms and conditions
