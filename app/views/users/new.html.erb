@@ -50,8 +50,8 @@
               <div class="invalid-feedback d-block"><%= @user.errors.full_messages_for(:email).first %></div>
             </div>
             <div class="form-group">
-              <%= f.label t("phonenumber"), class: "form-label" %>
-              <%= f.text_field :phonenumber, class: "form-control #{form_is_invalid?(@user, :phonenumber)}", placeholder: t("phonenumber") %>
+              <%= f.label t("settings.account.phonenumber"), class: "form-label" %>
+              <%= f.text_field :phonenumber, class: "form-control #{form_is_invalid?(@user, :phonenumber)}", placeholder: t("settings.account.phonenumber") %>
               <div class="invalid-feedback d-block"><%= @user.errors.full_messages_for(:phonenumber).first %></div>
             </div>
             <div class="form-group">

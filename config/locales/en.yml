@@ -342,7 +342,6 @@ en:
   password_empty_notice: Password cannot be empty.
   password_reset_success: Password has been reset.
   password_different_notice: Password Confirmation does not match.
-  phonenumber: Phone Number
   provider:
     google: Google
     office365: Office 365
@@ -438,6 +437,7 @@ en:
     account:
       fullname: Full name
       language: Language
+      phonenumber: Phone Number
       provider: Provider
       image: Image
       image_url: Profile Image URL
